@@ -1,0 +1,2 @@
+*/5 * * * * /home/devops_intern/systemreport.sh >> /var/log/system_report.log 2>&1
+*/5 * * * * /home/devops_intern/logstream.sh >> /var/log/aws_lgstream.log 2>&1

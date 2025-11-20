@@ -1,0 +1,63 @@
+
+Unable to locate credentials. You can configure credentials by running "aws login".
+
+aws: [ERROR]: argument --sequence-token: expected one argument
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+
+Unable to locate credentials. You can configure credentials by running "aws login".
+
+aws: [ERROR]: argument --sequence-token: expected one argument
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+
+Unable to locate credentials. You can configure credentials by running "aws login".
+
+aws: [ERROR]: argument --sequence-token: expected one argument
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+  {
+    "nextSequenceToken": "49669015160524293545429060797450753800251711423655183090"
+}
+{
+    "nextSequenceToken": "49669015160524293545429060942283693767543150988102730482"
+}
+{
+    "nextSequenceToken": "49668990962788505446995213837569454730929728380412625522"
+}
+{
+    "nextSequenceToken": "49666088904485237827124431751268592555965589489696375234"
+}
+{
+    "nextSequenceToken": "49667554543936637336595053897392262435646958019238953058"
+}
+{
+    "nextSequenceToken": "49669098218512447467614544825399611962874111095732175618"
+}
+{
+    "nextSequenceToken": "49667225491445866092784258082849375928168259906554560994"
+}
+{
+    "nextSequenceToken": "49669015160524293545429061796353517550690347737833014002"
+}
+{
+    "nextSequenceToken": "49667554543936637336595054562513025242125646676581417058"
+}
