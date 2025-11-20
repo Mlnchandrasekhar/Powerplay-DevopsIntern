@@ -70,7 +70,7 @@ Place screenshots in:
 `./screenshots/part1/`
 
 ```md
-![Part 1 Screenshot](./screenshots/part1/part1.png)
+![Part 1 Screenshot in the Repo
 ```
 
 ---
@@ -177,7 +177,7 @@ Place screenshots in:
 `./screenshots/part2/`
 
 ```md
-![Part 2 Screenshot](./screenshots/part2/part2.png)
+![Part 2 Screenshot in the Repo
 ```
 
 ---
@@ -230,7 +230,7 @@ Place screenshot in:
 `./screenshots/part3/`
 
 ```md
-![Part 3 Screenshot](./screenshots/part3/log-output.png)
+![Part 3 Screenshot in the Repo
 ```
 
 ---
@@ -320,7 +320,7 @@ Place screenshot in:
 `./screenshots/part4/`
 
 ```md
-![Part 4 Screenshot](./screenshots/part4/aws-cloudwatch.png)
+![Part 4 Screenshot in the Repo
 ```
 
 ---
