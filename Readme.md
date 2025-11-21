@@ -103,7 +103,7 @@ Example:
 
 ---
 
-### **2. Install Web Server (Nginx/Apache) or Use Docker**
+### **2. Install Web Server (Nginx/Apache) or Use Docker Image **
 
 If using Docker, install prerequisites:
 
@@ -136,16 +136,39 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 
 ---
 
-### **3. Create Dockerfile**
+### **3. Create Dockerfile and Nginx.conf**
 
 Example:
+
+```Nginx.conf
+events {}
+
+http {
+    server {
+        listen 80;
+        server_name _;
+
+        root /var/www/nginx/html;
+        index index.html;
+
+        location / {
+            try_files $uri $uri/ =404;
+        }
+    }
+}
+```
+
 
 ```dockerfile
 FROM nginx:alpine3.22
 
-RUN rm -rf /usr/share/nginx/html/*
+RUN rm -rf /var/www/nginx/html/*
 
-COPY index.html /usr/share/nginx/html
+RUN rm -rf /etc/nginx/nginx.conf
+
+COPY nginx.conf /etc/nginx/nginx.conf
+
+COPY index.html /var/www/nginx/html/
 
 CMD ["nginx", "-g", "daemon off;"]
 ```
